@@ -1,6 +1,7 @@
 #!/usr/bin/env groovy
 
 def call(String name = 'build') {
+	import hudson.model.*
 
 	println "Last Run: " + build.getTimestampString()
 	println "Last Run Date and Time: " + build.getTimestampString2()
