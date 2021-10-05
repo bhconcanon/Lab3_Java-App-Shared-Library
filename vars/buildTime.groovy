@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-def call() {
+def call(Map config=[:]) {
 
 	println "Last Run: " + build.getTimestampString()
 	println "Last Run Date and Time: " + build.getTimestampString2()
